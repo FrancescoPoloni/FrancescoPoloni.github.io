@@ -1,0 +1,68 @@
+body {
+    font-family: 'mario font',sans-serif;
+    background-color: #000000;
+    margin: 0;
+    background-image: url("assets/sfondo world 1-4.png");
+    width: 100%;
+    height: 1080px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'mario font';
+    src: url('assets/font/super-mario-bros-nes.woff2') format('woff2');
+         url('super-mario-bros-nes.woff') format('woff');
+}
+.boxFungo{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: red;
+}
+
+.immagineFungo{
+    width: 100px;
+    height: 100px;
+}
+
+.cellaTestoStoria{
+    width: 700px;
+    border-style: solid;
+    border-color: #fa9738;
+    border-width: 10px;
+    position: absolute;
+    left:  600px;
+    top: 90px;
+
+}
+
+.testoStoria{
+    margin: auto;
+    width: 90%;
+    color: #fafafa;
+    font-size: 15px;
+    line-height:150%
+}
+
+.titoloStoria{
+    color: #d62800;
+    margin: auto;
+    font-size: 20px;
+}
+
+.originalBooklet{
+    width: 400px;
+    border-style: solid;
+    border-color: #fa9738;
+    border-width: 10px;
+    position: absolute;
+    left:  83px;
+    top: 290px;
+}

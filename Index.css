@@ -1,0 +1,86 @@
+body {
+    font-family: 'mario font',sans-serif;
+    background-color: #5C93F9FF;
+    margin: 0;
+    background-image: url("assets/sfondo world 1-1.jpg");
+    width: 100%;
+    height: 1080px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'mario font';
+    src: url('assets/font/super-mario-bros-nes.woff2') format('woff2');
+         url('super-mario-bros-nes.woff') format('woff');
+}
+
+
+.box{
+    width: 1000px;
+}
+
+.boxFungo{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: red;
+}
+
+.immagineFungo{
+    width: 100px;
+    height: 100px;
+}
+
+.mario{
+    width: 220px;
+    height: 360px;
+    position: relative;
+    top: 310px;
+    right: -400px;
+}
+
+
+
+h1 {
+    color: Red;
+    font-size: 40px;
+}
+
+h3 {
+    color: yellow;
+    font-size: 15px;
+    position: relative;
+    top: 150px;
+    right: -400px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-image: url("assets/fungo selezione.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 100px);
+    background-position-y: 50%;
+}

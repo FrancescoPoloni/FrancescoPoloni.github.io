@@ -1,0 +1,98 @@
+body {
+    font-family: 'mario font',sans-serif;
+    background-color: #5b93fa;
+    margin: 0;
+    background-image: url("assets/sfondo World 4-3.png");
+    width: 100%;
+    height: 1080px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'mario font';
+    src: url('assets/font/super-mario-bros-nes.woff2') format('woff2');
+         url('super-mario-bros-nes.woff') format('woff');
+}
+
+.boxFungo{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: red;
+}
+
+.immagineFungo{
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.superFungo{
+    scale: 500%;
+}
+
+.fiore{
+    scale: 500%;
+}
+
+.superStella{
+    scale: 500%;
+}
+
+.boxSuperFungo{
+    width: 750px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.testoSuperFungo{
+    text-align: justify;
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    color: white;
+}
+
+.boxFiore{
+    width: 750px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.testoFiore{
+    text-align: justify;
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    color: white;
+}
+
+.boxStella{
+    width: 750px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.testoStella{
+    text-align: justify;
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    color: white;
+}
